@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototipovi objava i oglasa — Kurs za mala preduzeća</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<header class="nav"><div class="wrap nav__in">
+  <a class="brand" href="../"><span class="mark">SB</span> Kurs za mala preduzeća</a>
+  <span class="nav__spacer"></span>
+  <nav class="nav__links"><a href="../tok/">Tok kampanje →</a></nav>
+</div></header>
+
+<section class="band"><div class="wrap">
+  <span class="pill">Klikabilni prototipovi</span>
+  <h1 style="margin-top:12px">Objave i oglasi</h1>
+  <p class="sub">Izaberite format. Dugmad u prototipu vode u pravi tok — do prijave, programa ili ponude.</p>
+
+  <div class="mock-pick" id="pick"></div>
+  <div class="mock-stage">
+    <div id="stage"></div>
+    <div class="mock-note card" id="note"></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><p class="small"><a href="../">Početna</a> · <a href="../tok/">Tok kampanje</a> · <a href="../prijava/">Prijava</a></p></div></footer>
+
+<script>
+var U = "utm_source=facebook&utm_medium=paid-social";
+var FORMATS = {
+  native: {
+    label: "Oglas · Native forma",
+    note: "<b>Native lead forma</b><p>Magnet je ceo plan programa. Korisnik ostavlja ime/email/telefon bez napuštanja Meta aplikacije. Dugme „Preuzmi” vodi na stranicu programa sa click-to-call. Ako ne pozove, prodaja zove u roku od 1h.</p><p class='muted small'>Cilj: lidovi · najjeftiniji CPL, nosi volumen.</p>",
+    render: function(){
+      return phone(
+        fbtop("Sponzorisano") +
+        cap("Vodite biznis, a osećate da radite naslepo? Preuzmite ceo plan programa: 12 nedelja, korak po korak. Ostavite ime i email, plan stiže odmah.") +
+        media(false, "Ceo plan programa") +
+        "<div class='leadform'><div class='fi'>Ime i prezime</div><div class='fi'>Email</div><div class='fi'>Telefon (opciono)</div>" +
+        "<div class='fi'>Da li vodite ili pokrećete biznis? Da / Ne</div>" +
+        "<a class='btn btn--primary btn--lg' style='width:100%;justify-content:center' href='../program/?"+U+"&utm_campaign=curriculum-magnet&utm_content=native-form'>Preuzmi plan programa</a></div>"
+      );
+    }
+  },
+  landing: {
+    label: "Oglas · Landing",
+    note: "<b>Landing oglas</b><p>Konverzije na sajt. Vodi na stranicu prijave interesovanja, gde se otključava ponuda i uplatnica. Retargetuje lead-formu i posetioce.</p><p class='muted small'>Cilj: konverzije · viša namera.</p>",
+    render: function(){
+      return phone(
+        fbtop("Sponzorisano") +
+        cap("Vreme je da posao radi za vas. Za 12 nedelja postavljate prodaju, finansije i procese na sistem. Prijavite interesovanje i odmah dobijate ceo program, ponudu i uplatnicu.") +
+        media(false, "Prva grupa · oktobar") +
+        ctaBar("Prva grupa kreće u oktobru", "Saznaj više", "../prijava/?"+U+"&utm_campaign=conversions-registration&utm_content=landing-ad")
+      );
+    }
+  },
+  reel: {
+    label: "Reel",
+    note: "<b>Reel (organski + boost)</b><p>Kratka forma, snažan početak u prve 2 sekunde. Primer: „12 nedelja, od haosa do sistema.” CTA vodi na prijavu.</p>",
+    render: function(){
+      return phone(
+        media(true, "12 nedelja:\nod haosa do sistema") +
+        cap("Kako izgleda 12 nedelja koje menjaju način na koji vodite biznis. Ceo plan i ponuda na linku.") +
+        ctaBar("Reel · organski + boost", "Prijavi se", "../prijava/?utm_source=instagram&utm_medium=organic&utm_campaign=reel&utm_content=12-nedelja")
+      );
+    }
+  },
+  post: {
+    label: "Objava",
+    note: "<b>Objava · karusel</b><p>4 celine programa kroz slajdove, poslednji slajd je poziv na akciju. Vodi na program pa prijavu.</p>",
+    render: function(){
+      return phone(
+        fbtop("Objava") +
+        cap("Program u 4 celine: Temelji · Prodaja i marketing · Finansije i cene · Procesi i rast. Prva grupa, 12 mesta, oktobar.") +
+        media(false, "1 / 4 · Temelji") +
+        ctaBar("Objava · karusel", "Vidi program", "../program/?utm_source=facebook&utm_medium=organic&utm_campaign=post&utm_content=4-celine")
+      );
+    }
+  },
+  story: {
+    label: "Storija",
+    note: "<b>Storija</b><p>Vertikalna, interaktivna (anketa/odbrojavanje). CTA „Prevuci gore” vodi na prijavu.</p>",
+    render: function(){
+      return "<div class='story'><div class='story__bars'><i class='on'></i><i></i><i></i></div>" +
+        "<div class='story__body'>12 mesta.<br>Zatvara se kad se popuni.</div>" +
+        "<div class='story__cta'><a href='../prijava/?utm_source=instagram&utm_medium=organic&utm_campaign=story&utm_content=odbrojavanje'>Prijavi se ↑</a></div></div>";
+    }
+  }
+};
+
+function phone(inner){ return "<div class='phone'><div class='phone__scr'>"+inner+"</div></div>"; }
+function fbtop(sub){ return "<div class='fbtop'><span class='av'></span><div><b>Kurs za mala preduzeća</b><div class='s'>"+sub+"</div></div></div>"; }
+function cap(t){ return "<div class='fbcap'>"+t+"</div>"; }
+function media(reel, txt){ return "<div class='fbmedia"+(reel?" reel":"")+"'>"+txt.replace(/\n/g,"<br>")+"</div>"; }
+function ctaBar(label, btn, href){ return "<div class='fbcta'><span>"+label+"</span><a href='"+href+"'>"+btn+"</a></div>"; }
+
+var pick=document.getElementById("pick"), stage=document.getElementById("stage"), note=document.getElementById("note");
+function show(key){
+  Object.keys(FORMATS).forEach(function(k){ pick.querySelector("[data-k="+k+"]").classList.toggle("on", k===key); });
+  stage.innerHTML = FORMATS[key].render();
+  note.innerHTML = FORMATS[key].note;
+}
+pick.innerHTML = Object.keys(FORMATS).map(function(k){ return "<button data-k='"+k+"'>"+FORMATS[k].label+"</button>"; }).join("");
+pick.addEventListener("click", function(e){ var b=e.target.closest("button"); if(b) show(b.dataset.k); });
+show("native");
+</script>
+
+</body>
+</html>

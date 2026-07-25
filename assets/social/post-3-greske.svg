@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" font-family="Georgia,'Times New Roman',serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2b27"/><stop offset="1" stop-color="#0f423b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#g1)"/>
+  <!-- brand row -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="90" y="86" width="46" height="46" rx="11" fill="#0f766e"/>
+    <text x="113" y="117" text-anchor="middle" font-size="20" font-weight="700" fill="#eafaf6">SB</text>
+    <text x="152" y="116" font-size="21" letter-spacing="2.5" fill="#9fded2">KURS ZA MALA PREDUZEĆA</text>
+  </g>
+  <!-- giant numeral -->
+  <text x="86" y="470" font-size="360" font-weight="700" fill="#0f766e" opacity="0.28">3</text>
+  <!-- headline -->
+  <text x="90" y="360" font-size="92" font-weight="700" fill="#f2f7f5">
+    <tspan x="90" dy="0">3 greške koje</tspan>
+    <tspan x="90" dy="104">koštaju male</tspan>
+    <tspan x="90" dy="104">firme</tspan>
+  </text>
+  <!-- numbered teaser -->
+  <g font-family="system-ui,Segoe UI,sans-serif" fill="#cfeee7">
+    <g transform="translate(90,700)">
+      <circle cx="22" cy="22" r="22" fill="none" stroke="#3f8f83" stroke-width="2"/>
+      <text x="22" y="30" text-anchor="middle" font-size="22" fill="#9fded2">1</text>
+      <text x="66" y="30" font-size="34">Rad naslepo, bez brojeva</text>
+    </g>
+    <g transform="translate(90,772)">
+      <circle cx="22" cy="22" r="22" fill="none" stroke="#3f8f83" stroke-width="2"/>
+      <text x="22" y="30" text-anchor="middle" font-size="22" fill="#9fded2">2</text>
+      <text x="66" y="30" font-size="34">Sve zavisi samo od vas</text>
+    </g>
+    <g transform="translate(90,844)">
+      <circle cx="22" cy="22" r="22" fill="none" stroke="#3f8f83" stroke-width="2"/>
+      <text x="22" y="30" text-anchor="middle" font-size="22" fill="#9fded2">3</text>
+      <text x="66" y="30" font-size="34">Cene „od oka", bez marže</text>
+    </g>
+  </g>
+  <!-- footer cta -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="90" y="948" width="360" height="66" rx="33" fill="#0f766e"/>
+    <text x="270" y="990" text-anchor="middle" font-size="30" font-weight="600" fill="#fff">Ceo program na linku</text>
+    <text x="990" y="990" text-anchor="end" font-size="30" fill="#9fded2">Reel ▸</text>
+  </g>
+</svg>

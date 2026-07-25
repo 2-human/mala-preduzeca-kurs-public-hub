@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" font-family="Georgia,'Times New Roman',serif">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#g3)"/>
+  <!-- brand row -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="90" y="86" width="46" height="46" rx="11" fill="#eafaf6"/>
+    <text x="113" y="117" text-anchor="middle" font-size="20" font-weight="700" fill="#0f766e">SB</text>
+    <text x="152" y="116" font-size="21" letter-spacing="3" fill="#bfeade">PRVA GRUPA · OKTOBAR 2026</text>
+  </g>
+  <!-- headline -->
+  <text x="90" y="330" font-size="150" font-weight="700" fill="#ffffff">12 mesta</text>
+  <text x="90" y="410" font-size="52" fill="#d6efe9">
+    <tspan x="90">Namerno mala grupa,</tspan>
+    <tspan x="90" dy="66">da svako dobije pažnju.</tspan>
+  </text>
+  <!-- 12 seats: 4 filled (taken), 8 open -->
+  <g transform="translate(90,560)">
+    <text x="0" y="-24" font-family="system-ui,sans-serif" font-size="26" fill="#bfeade">Preostala mesta se brzo popunjavaju</text>
+    <g>
+      <!-- row1: 6 seats -->
+      <g fill="#eafaf6"><rect x="0" y="0" width="120" height="120" rx="18"/><rect x="150" y="0" width="120" height="120" rx="18"/><rect x="300" y="0" width="120" height="120" rx="18"/><rect x="450" y="0" width="120" height="120" rx="18"/></g>
+      <g fill="none" stroke="#bfeade" stroke-width="3"><rect x="600" y="0" width="120" height="120" rx="18"/><rect x="750" y="0" width="120" height="120" rx="18"/></g>
+      <!-- row2: 6 seats (all open) -->
+      <g fill="none" stroke="#bfeade" stroke-width="3">
+        <rect x="0" y="150" width="120" height="120" rx="18"/><rect x="150" y="150" width="120" height="120" rx="18"/><rect x="300" y="150" width="120" height="120" rx="18"/><rect x="450" y="150" width="120" height="120" rx="18"/><rect x="600" y="150" width="120" height="120" rx="18"/><rect x="750" y="150" width="120" height="120" rx="18"/>
+      </g>
+    </g>
+  </g>
+  <!-- cta -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="90" y="940" width="380" height="72" rx="36" fill="#ffffff"/>
+    <text x="280" y="986" text-anchor="middle" font-size="32" font-weight="700" fill="#0f766e">Rezerviši mesto</text>
+    <text x="990" y="986" text-anchor="end" font-size="30" fill="#bfeade">Objava ▸</text>
+  </g>
+</svg>

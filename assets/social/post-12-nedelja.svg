@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" font-family="Georgia,'Times New Roman',serif">
+  <rect width="1080" height="1080" fill="#f6f8f7"/>
+  <rect width="1080" height="14" fill="#0f766e"/>
+  <!-- brand row -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <rect x="90" y="86" width="46" height="46" rx="11" fill="#0f766e"/>
+    <text x="113" y="117" text-anchor="middle" font-size="20" font-weight="700" fill="#eafaf6">SB</text>
+    <text x="152" y="116" font-size="21" letter-spacing="2.5" fill="#5b6b68">12 NEDELJA · PLAN PROGRAMA</text>
+  </g>
+  <!-- headline -->
+  <text x="90" y="300" font-size="120" font-weight="700" fill="#115e59">12 nedelja</text>
+  <text x="90" y="392" font-size="58" fill="#17211f">
+    <tspan x="90">od haosa do sistema</tspan>
+    <tspan x="90" dy="72">koji radi i bez vas</tspan>
+  </text>
+  <!-- chaos -> system visual -->
+  <g transform="translate(0,560)">
+    <text x="150" y="0" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#5b6b68">haos</text>
+    <g fill="#c2504a">
+      <circle cx="70" cy="120" r="15"/><circle cx="160" cy="70" r="12"/><circle cx="230" cy="150" r="16"/>
+      <circle cx="110" cy="200" r="11"/><circle cx="210" cy="240" r="14"/><circle cx="60" cy="260" r="13"/>
+      <circle cx="175" cy="185" r="10"/><circle cx="250" cy="90" r="12"/>
+    </g>
+    <text x="540" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="80" fill="#0f766e">→</text>
+    <text x="900" y="0" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#5b6b68">sistem</text>
+    <g fill="#0f766e">
+      <circle cx="800" cy="70" r="14"/><circle cx="870" cy="70" r="14"/><circle cx="940" cy="70" r="14"/><circle cx="1010" cy="70" r="14"/>
+      <circle cx="800" cy="140" r="14"/><circle cx="870" cy="140" r="14"/><circle cx="940" cy="140" r="14"/><circle cx="1010" cy="140" r="14"/>
+      <circle cx="800" cy="210" r="14"/><circle cx="870" cy="210" r="14"/><circle cx="940" cy="210" r="14"/><circle cx="1010" cy="210" r="14"/>
+    </g>
+  </g>
+  <!-- carousel dots + cta -->
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <g transform="translate(90,930)">
+      <circle cx="0" cy="0" r="7" fill="#0f766e"/><circle cx="26" cy="0" r="7" fill="#c7d6d2"/>
+      <circle cx="52" cy="0" r="7" fill="#c7d6d2"/><circle cx="78" cy="0" r="7" fill="#c7d6d2"/>
+      <text x="120" y="8" font-size="28" fill="#5b6b68">prevuci za ceo plan</text>
+    </g>
+    <text x="990" y="938" text-anchor="end" font-size="30" font-weight="600" fill="#115e59">Karusel ▸</text>
+  </g>
+</svg>

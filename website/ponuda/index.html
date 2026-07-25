@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ponuda i uplatnica — Kurs za mala preduzeća</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<header class="nav"><div class="wrap nav__in">
+  <a class="brand" href="../"><span class="mark">SB</span> Kurs za mala preduzeća</a>
+  <span class="nav__spacer"></span>
+  <nav class="nav__links">
+    <a class="hide-sm" href="../program/">Program</a>
+    <a class="btn btn--wa" href="https://wa.me/381601234567?text=Zdravo%2C%20zavr%C5%A1io%2Fla%20sam%20prijavu%2C%20imam%20pitanje." target="_blank" rel="noopener">WhatsApp</a>
+  </nav>
+</div></header>
+
+<!-- soft gate banner (prototype) -->
+<div id="gate" class="wrap" style="padding-top:14px;display:none">
+  <div class="footnote">Ovo je pregled ponude. U pravom toku se otključava prijavom interesovanja. <a href="../prijava/">Prijavite se →</a></div>
+</div>
+
+<section class="hero"><div class="wrap">
+  <span class="pill">Otključano · vaša ponuda</span>
+  <h1 style="margin-top:14px">Ceo program i ponuda za prvu grupu</h1>
+  <p class="sub">Hvala na prijavi. Ispod je ceo plan programa, ponuda i uplatnica sa IPS QR kodom. Mesto rezervišete uplatom depozita, a možete i odmah izmiriti ceo iznos.</p>
+  <p style="margin-top:16px"><span class="deadline">Upis za prvu grupu se zatvara kada se popuni 12 mesta.</span></p>
+</div></section>
+
+<!-- OFFER -->
+<section class="band"><div class="wrap">
+  <h2>Šta dobijate</h2>
+  <div class="grid grid--2">
+    <div class="card">
+      <ul class="checks">
+        <li>12 nedelja strukturiranog programa (3 meseca)</li>
+        <li>Mentorstvo i povratne informacije uživo</li>
+        <li>Praktični zadaci primenjeni na vaš biznis</li>
+        <li>Materijali, šabloni i alati za svaku celinu</li>
+        <li>Plan rasta za narednih 12 meseci</li>
+        <li>Zajednica prve grupe (maks. 12 polaznika)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="price"><span class="n">1.500 €</span><span class="per">/ ceo program</span></div>
+      <p class="muted" style="margin-top:6px">≈ 176.000 RSD po indikativnom kursu. Plaćanje u dinarima putem uplatnice.</p>
+      <p><b>Depozit 200 €</b> (≈ 23.500 RSD) rezerviše mesto, ostatak pre početka programa u oktobru.</p>
+      <div class="cta-row">
+        <a class="btn btn--call" href="tel:+381601234567">Pozovi za dogovor</a>
+        <a class="btn btn--wa" href="https://wa.me/381601234567?text=Zdravo%2C%20%C5%BEelim%20da%20rezervi%C5%A1em%20mesto." target="_blank" rel="noopener">Rezerviši preko WhatsApp-a</a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- UPLATNICA -->
+<section class="band"><div class="wrap">
+  <h2>Uplatnica sa IPS QR kodom</h2>
+  <p class="muted">Izaberite iznos, otvorite mBanking aplikaciju i skenirajte QR kod. Podaci se popunjavaju automatski.</p>
+  <div class="seg" style="margin:12px 0 18px">
+    <button id="btnDep" class="on" type="button">Depozit (200 €)</button>
+    <button id="btnFull" type="button">Ceo iznos (1.500 €)</button>
+  </div>
+  <div id="uplatnica"></div>
+  <p class="muted small" style="margin-top:14px">Napomena: IPS QR sadrži račun primaoca, iznos, šifru plaćanja i poziv na broj. Račun, PIB i poziv na broj su placeholderi u ovom prototipu.</p>
+</div></section>
+
+<!-- FULL CURRICULUM -->
+<section class="band"><div class="wrap">
+  <h2>Ceo plan programa</h2>
+  <div class="grid grid--2">
+    <div>
+      <h3>Celina 1 · Temelji (1–3)</h3>
+      <div class="weeks">
+        <div class="week"><div class="week__n">1</div><div><h4>Vaš kupac i tržište</h4><p>Ko kupuje, koji problem rešavate, gde ih nalazite.</p></div></div>
+        <div class="week"><div class="week__n">2</div><div><h4>Ponuda i diferencijacija</h4><p>Jasna ponuda i po čemu se razlikujete.</p></div></div>
+        <div class="week"><div class="week__n">3</div><div><h4>Ciljevi i brojevi</h4><p>Koje brojeve pratite iz nedelje u nedelju.</p></div></div>
+      </div>
+      <h3 style="margin-top:18px">Celina 2 · Prodaja i marketing (4–6)</h3>
+      <div class="weeks">
+        <div class="week"><div class="week__n">4</div><div><h4>Organski sadržaj</h4><p>Poverenje i kupci bez velikog budžeta.</p></div></div>
+        <div class="week"><div class="week__n">5</div><div><h4>Plaćeni oglasi</h4><p>Meta i Google osnove, merenje rezultata.</p></div></div>
+        <div class="week"><div class="week__n">6</div><div><h4>Prodajni razgovor</h4><p>Razgovor koji zatvara, bez pritiska.</p></div></div>
+      </div>
+    </div>
+    <div>
+      <h3>Celina 3 · Finansije i cene (7–9)</h3>
+      <div class="weeks">
+        <div class="week"><div class="week__n">7</div><div><h4>Marže i troškovi</h4><p>Gde zarađujete, a gde curi novac.</p></div></div>
+        <div class="week"><div class="week__n">8</div><div><h4>Cenovna strategija</h4><p>Cene koje su konkurentne i profitabilne.</p></div></div>
+        <div class="week"><div class="week__n">9</div><div><h4>Tok novca i izveštaji</h4><p>Jednostavni izveštaji koji drže biznis na kursu.</p></div></div>
+      </div>
+      <h3 style="margin-top:18px">Celina 4 · Procesi i rast (10–12)</h3>
+      <div class="weeks">
+        <div class="week"><div class="week__n">10</div><div><h4>Sistemi i procedure</h4><p>Da posao ne zavisi samo od vas.</p></div></div>
+        <div class="week"><div class="week__n">11</div><div><h4>Delegiranje i tim</h4><p>Šta i kome prepustiti, i kako kontrolisati.</p></div></div>
+        <div class="week"><div class="week__n">12</div><div><h4>Plan rasta</h4><p>Konkretan plan za narednih 12 meseci.</p></div></div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top:22px"><a class="btn btn--primary btn--lg" href="#uplatnica" onclick="document.querySelector('.upl')?.scrollIntoView({behavior:'smooth'});return false;">Rezerviši mesto uplatom depozita</a></p>
+</div></section>
+
+<footer><div class="wrap">
+  <p><b>Kurs za mala preduzeća</b> · Prva grupa oktobar 2026</p>
+  <p class="small"><a href="../">Početna</a> · <a href="../program/">Program</a> · <a href="tel:+381601234567">060 123 4567</a></p>
+</div></footer>
+
+<div class="callbar">
+  <a class="btn btn--call" href="tel:+381601234567">Pozovi</a>
+  <a class="btn btn--wa" href="https://wa.me/381601234567" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="btn btn--primary" href="#uplatnica">Uplatnica</a>
+</div>
+
+<script src="../assets/vendor/qrcode.js"></script>
+<script src="../assets/ips-uplatnica.js"></script>
+<script>
+  // soft gate: show a banner if the visitor did not come through the interest form
+  try { if (sessionStorage.getItem("mpk_registered") !== "1") document.getElementById("gate").style.display = "block"; } catch (e) {}
+
+  var BASE = {
+    account: "160600000012345678",     // PLACEHOLDER account (18 digits)
+    name: "Kurs za mala preduzeća doo",
+    pib: "112233445",                  // PLACEHOLDER
+    code: "221",
+    purpose: "Uplata za kurs za mala preduzeća",
+    model: "00",
+    ref: "20261001",
+    qrId: "ipsQr"
+  };
+  var box = document.getElementById("uplatnica");
+  function draw(kind) {
+    var cfg = Object.assign({}, BASE);
+    if (kind === "full") { cfg.amount = 176000; cfg.eur = "1.500"; cfg.purpose = "Uplata skolarine - ceo iznos"; }
+    else                 { cfg.amount = 23500;  cfg.eur = "200";   cfg.purpose = "Depozit za rezervaciju mesta"; }
+    window.IPSUplatnica.render(box, cfg);
+  }
+  var bDep = document.getElementById("btnDep"), bFull = document.getElementById("btnFull");
+  bDep.onclick = function () { bDep.classList.add("on"); bFull.classList.remove("on"); draw("dep"); };
+  bFull.onclick = function () { bFull.classList.add("on"); bDep.classList.remove("on"); draw("full"); };
+  draw("dep");
+</script>
+
+</body>
+</html>
