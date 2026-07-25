@@ -228,7 +228,8 @@ window.HUB = {
         ".admock__form{padding:14px;display:grid;gap:8px;background:#f6f8f7}" +
         ".fld{background:#fff;border:1px solid rgba(15,26,24,.16);border-radius:8px;padding:10px 12px;color:#5b6b68;font-size:.9rem}" +
         ".fld--q{color:#0f1a18}" +
-        ".admock__cta{background:#0f766e;color:#fff;border:none;border-radius:8px;padding:11px;font-weight:600;font-size:.95rem;cursor:pointer}" +
+        ".admock__cta{background:#0f766e;color:#fff;border:none;border-radius:8px;padding:11px;font-weight:600;font-size:.95rem;cursor:pointer;transition:.15s}" +
+        ".admock__cta:hover{background:#111;color:#fff}" +
         ".admock__note{padding:10px 14px;font-size:.8rem;color:#5b6b68;border-top:1px solid rgba(15,26,24,.12)}" +
         ".sitepane__lede{font-weight:600}.sp-point{margin:12px 0;padding-left:12px;border-left:3px solid #0f766e}" +
         "@media(max-width:820px){.statgrid,.cards{grid-template-columns:1fr 1fr}}" +

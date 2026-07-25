@@ -41,7 +41,7 @@ a{color:var(--accent-strong)}
 .btn{display:inline-flex; align-items:center; gap:8px; border:none; cursor:pointer;
   padding:12px 20px; border-radius:999px; font-weight:600; font-size:.98rem; text-decoration:none; transition:.15s}
 .btn--primary{background:var(--accent); color:#fff}
-.btn--primary:hover{background:var(--accent-strong)}
+.btn--primary:hover{background:#111; color:#fff}
 .btn--ghost{background:transparent; color:var(--accent-strong); border:1.5px solid var(--accent)}
 .btn--ghost:hover{background:var(--accent-soft)}
 .btn--wa{background:#25D366; color:#0b3d21}
@@ -138,7 +138,8 @@ ul.checks li:before{content:"✓"; position:absolute; left:0; color:var(--ok); f
 .fbmedia{aspect-ratio:1/1;background:linear-gradient(135deg,#0f766e,#115e59);color:#eafaf6;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-family:Georgia,serif;font-size:1.35rem}
 .fbmedia.reel{aspect-ratio:9/16}
 .fbcta{display:flex;justify-content:space-between;align-items:center;background:#f0f2f5;padding:11px 13px;font-size:13px}
-.fbcta a{background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:600}
+.fbcta a{background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:600;transition:.15s}
+.fbcta a:hover{background:#111;color:#fff}
 .fbbar{display:flex;justify-content:space-around;padding:8px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
 .leadform{padding:12px 13px;background:#fff}
 .leadform .fi{border:1px solid var(--line);border-radius:8px;padding:9px 11px;color:var(--muted);font-size:13px;margin-bottom:7px}
