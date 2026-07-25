@@ -35,6 +35,10 @@ a{color:var(--accent-strong)}
 .nav__links{display:flex; gap:18px; align-items:center}
 .nav__links a{color:var(--ink-2); text-decoration:none; font-size:.94rem}
 .nav__links a:hover{color:var(--accent-strong)}
+/* button inside the nav keeps its own colors (specificity fix) */
+.nav__links a.btn--primary{color:#fff}
+.nav__links a.btn--primary:hover{color:#fff}
+.nav__links a.btn{font-size:.98rem}
 @media(max-width:720px){.nav__links a.hide-sm{display:none}}
 
 /* buttons */
