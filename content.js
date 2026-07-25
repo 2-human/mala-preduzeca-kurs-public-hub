@@ -246,6 +246,18 @@ window.HUB = {
         "<div class='stat'><div class='stat__n'>90 do 350 &euro;</div><div class='stat__l'>cena po upisu</div></div>" +
         "<div class='stat'><div class='stat__n'>4 do 17x</div><div class='stat__l'>povraćaj na medije (ROAS)</div></div>" +
       "</div>" +
+      "<h2 class='block'><span class='block__n'>◆</span> Primarni cilj sajta</h2>" +
+      "<div class='cards' style='grid-template-columns:1fr'><div class='card card--accent'><p style='margin:0'><b>Jedan cilj:</b> pretvoriti interesovanje iz kampanje u upis. Svaki posetilac postaje označen lid, a svaki lid ima jasan put do prodaje. Meta je 12 upisa za prvu grupu; nema razgledanja, svaka strana gura ka prijavi.</p></div></div>" +
+      "<p>Kako to poboljšava trenutno stanje:</p>" +
+      "<div class='tblwrap'><table class='tbl'>" +
+        "<thead><tr><th>Aspekt</th><th>Trenutno (bez ovoga)</th><th>Sa ovim sajtom</th></tr></thead><tbody>" +
+        "<tr><td>Odredište oglasa i objava</td><td>u prazno (DM, generička strana)</td><td>namenska strana za svaki korak</td></tr>" +
+        "<tr><td>Hvatanje lida</td><td>ad-hoc, poruke se gube</td><td>struktuirana prijava &rarr; CRM</td></tr>" +
+        "<tr><td>Atribucija</td><td>ne zna se šta dovodi lida</td><td>svaki lid označen izvorom (UTM)</td></tr>" +
+        "<tr><td>Praćenje</td><td>sporo i nasumično</td><td>speed-to-lead, kontakt za manje od 1h</td></tr>" +
+        "<tr><td>Merenje</td><td>nema CPL/CPA</td><td>uživo CPL, CPA i ROI prema cilju 12</td></tr>" +
+        "<tr><td>Plaćanje</td><td>ručno</td><td>ponuda + IPS uplatnica odmah po prijavi</td></tr>" +
+      "</tbody></table></div>" +
       "<p>Ekonomija je popustljiva: po ceni od 1.500 EUR po mestu, čak i konzervativni scenario vraća pet puta više od uloženog u medije. Pravi posao je izvođenje toka i zatvaranje neproverene prve grupe, zato plan spaja jeftin volumen lidova sa Meta platforme sa brzim praćenjem od strane prodaje, WhatsApp-om, fokusiranom Google linijom i organskom kampanjom koja gradi poverenje.</p>" +
       "<p class='muted'>Brojevi ispod su zasnovani na uživo povučenim podacima o obimu Google pretraga u Srbiji i veličini Meta publike, plus benčmarci za B2B edukaciju. Zamenite procene stvarnim podacima iz platformi posle prve nedelje.</p>" +
       "</div>",
