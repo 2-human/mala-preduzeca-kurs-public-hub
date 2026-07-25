@@ -58,6 +58,18 @@ var FORMATS = {
       );
     }
   },
+  whatsapp: {
+    label: "Oglas · WhatsApp",
+    note: "<b>Click-to-WhatsApp oglas</b><p>Oglas u feed-u sa CTA „Pošalji poruku”. Klik otvara WhatsApp čet sa prodajom, sa unapred popunjenom porukom. Cilj kampanje: Poruke. WhatsApp je uključen i kao pozicija u isporuci ostalih kampanja.</p><p class='muted small'>Klikni „Pošalji poruku” u prototipu da vidiš čet.</p>",
+    render: function(){
+      return phone(
+        fbtop("Sponzorisano") +
+        cap("Imate pitanje o kursu? Pišite nam na WhatsApp, odgovaramo za par minuta. Prva grupa: oktobar, 12 mesta.") +
+        media(false, "Pišite nam") +
+        "<div class='fbcta'><span>WhatsApp poruka</span><a class='wa-btn' href='#' onclick=\"waChat();return false\">Pošalji poruku</a></div>"
+      );
+    }
+  },
   reel: {
     label: "Reel",
     note: "<b>Reel (organski + boost)</b><p>Kratka forma, snažan početak u prve 2 sekunde. Primer: „12 nedelja, od haosa do sistema.” CTA vodi na prijavu.</p>",
@@ -98,6 +110,24 @@ function cap(t){ return "<div class='fbcap'>"+t+"</div>"; }
 function media(reel, txt){ return "<div class='fbmedia"+(reel?" reel":"")+"'>"+txt.replace(/\n/g,"<br>")+"</div>"; }
 function ctaBar(label, btn, href){ return "<div class='fbcta'><span>"+label+"</span><a href='"+href+"'>"+btn+"</a></div>"; }
 
+// WhatsApp: click-to-message ad opens a simulated WhatsApp chat inside the phone.
+function waChat(){ document.getElementById('stage').innerHTML = phone(waScreen()); }
+function waScreen(){
+  return "<div class='wa'>"+
+    "<div class='wa__head'><span class='wa__back'>‹</span><span class='wa__av'></span><div class='wa__id'><b>Kurs za mala preduzeća</b><small>poslovni nalog · onlajn</small></div></div>"+
+    "<div class='wa__body'>"+
+      "<div class='wa__sys'>Poruke su šifrovane. Ovo je poslovni nalog.</div>"+
+      "<div class='wa__out'>Zdravo, zanima me kurs za mala preduzeća.<span class='wa__t'>10:24 ✓✓</span></div>"+
+      "<div class='wa__in'>Zdravo! Hvala na interesovanju. Prva grupa kreće u oktobru, 12 mesta.<span class='wa__t'>10:24</span></div>"+
+      "<div class='wa__in'>Da vam pošaljem ceo plan programa i ponudu sa cenom?<span class='wa__t'>10:24</span></div>"+
+      "<div class='wa__out'>Da, može.<span class='wa__t'>10:25 ✓✓</span></div>"+
+      "<div class='wa__in'>Odlično. Otvorite prijavu i odmah dobijate program + uplatnicu 👇<span class='wa__t'>10:25</span></div>"+
+      "<a class='wa__link' href='../prijava/?utm_source=whatsapp&utm_medium=click_to_message&utm_campaign=whatsapp-messages'>Otvori prijavu →</a>"+
+    "</div>"+
+    "<div class='wa__bar'><span class='wa__inp'>Poruka</span><span class='wa__send'>➤</span></div>"+
+  "</div>";
+}
+
 var pick=document.getElementById("pick"), stage=document.getElementById("stage"), note=document.getElementById("note");
 function show(key){
   Object.keys(FORMATS).forEach(function(k){ pick.querySelector("[data-k="+k+"]").classList.toggle("on", k===key); });
@@ -108,6 +138,8 @@ pick.innerHTML = Object.keys(FORMATS).map(function(k){ return "<button data-k='"
 pick.addEventListener("click", function(e){ var b=e.target.closest("button"); if(b) show(b.dataset.k); });
 show("native");
 </script>
+
+<script src="../assets/flowmap.js" data-node="mock"></script>
 
 </body>
 </html>
