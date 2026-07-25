@@ -38,7 +38,7 @@ var FORMATS = {
     render: function(){
       return phone(
         fbtop("Sponzorisano") +
-        cap("Vodite biznis, a osećate da radite naslepo? Preuzmite ceo plan programa: 12 nedelja, korak po korak. Ostavite ime i email, plan stiže odmah.") +
+        cap("Vodite biznis, a osećate da radite naslepo? Preuzmite ceo plan programa: 6 nedelja, korak po korak. Ostavite ime i email, plan stiže odmah.") +
         media(false, "Ceo plan programa") +
         "<div class='leadform'><div class='fi'>Ime i prezime</div><div class='fi'>Email</div><div class='fi'>Telefon (opciono)</div>" +
         "<div class='fi'>Da li vodite ili pokrećete biznis? Da / Ne</div>" +
@@ -52,7 +52,7 @@ var FORMATS = {
     render: function(){
       return phone(
         fbtop("Sponzorisano") +
-        cap("Vreme je da posao radi za vas. Za 12 nedelja postavljate prodaju, finansije i procese na sistem. Prijavite interesovanje i odmah dobijate ceo program, ponudu i uplatnicu.") +
+        cap("Vreme je da posao radi za vas. Za 6 nedelja postavljate prodaju, finansije i procese na sistem. Prijavite interesovanje i odmah dobijate ceo program, ponudu i uplatnicu.") +
         media(false, "Prva grupa · oktobar") +
         ctaBar("Prva grupa kreće u oktobru", "Saznaj više", "../prijava/?"+U+"&utm_campaign=conversions-registration&utm_content=landing-ad")
       );
@@ -72,23 +72,23 @@ var FORMATS = {
   },
   reel: {
     label: "Reel",
-    note: "<b>Reel (organski + boost)</b><p>Kratka forma, snažan početak u prve 2 sekunde. Primer: „12 nedelja, od haosa do sistema.” CTA vodi na prijavu.</p>",
+    note: "<b>Reel (organski + boost)</b><p>Kratka forma, snažan početak u prve 2 sekunde. Primer: „6 nedelja, od haosa do sistema.” CTA vodi na prijavu.</p>",
     render: function(){
       return phone(
-        media(true, "12 nedelja:\nod haosa do sistema") +
-        cap("Kako izgleda 12 nedelja koje menjaju način na koji vodite biznis. Ceo plan i ponuda na linku.") +
+        media(true, "6 nedelja:\nod haosa do sistema") +
+        cap("Kako izgleda 6 nedelja koje menjaju način na koji vodite biznis. Ceo plan i ponuda na linku.") +
         ctaBar("Reel · organski + boost", "Prijavi se", "../prijava/?utm_source=instagram&utm_medium=organic&utm_campaign=reel&utm_content=12-nedelja")
       );
     }
   },
   post: {
     label: "Objava",
-    note: "<b>Objava · karusel</b><p>4 celine programa kroz slajdove, poslednji slajd je poziv na akciju. Vodi na program pa prijavu.</p>",
+    note: "<b>Objava · karusel</b><p>3 celine programa kroz slajdove, poslednji slajd je poziv na akciju. Vodi na program pa prijavu.</p>",
     render: function(){
       return phone(
         fbtop("Objava") +
-        cap("Program u 4 celine: Temelji · Prodaja i marketing · Finansije i cene · Procesi i rast. Prva grupa, 12 mesta, oktobar.") +
-        media(false, "1 / 4 · Temelji") +
+        cap("Program u 3 celine: Temelji i prodaja · Marketing i finansije · Sistemi i rast. Prva grupa, 12 mesta, oktobar.") +
+        media(false, "1 / 3 · Temelji") +
         ctaBar("Objava · karusel", "Vidi program", "../program/?utm_source=facebook&utm_medium=organic&utm_campaign=post&utm_content=4-celine")
       );
     }

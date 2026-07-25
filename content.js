@@ -1,6 +1,6 @@
 /* ============================================================================
  * mala-preduzeca-kurs — sadržaj proposal hub-a (window.HUB) — SRPSKI
- * NSC predstavlja tromesečni "Kurs za mala preduzeća" (Srbija, 1.500 EUR).
+ * Umbrella Marketing predstavlja šestonedeljni "Kurs za mala preduzeća" (Srbija, 1.500 EUR).
  * Chassis: proposal-hub hub.html (chassis-config). Tvrdo kodirane UI oznake
  * (sidebar, CRM zaglavlja/fioka) su lokalizovane u hub.html.
  * Stil: bez crtica (em-dash), srpski, oprezne tvrdnje o trenutnom stanju.
@@ -10,31 +10,34 @@ var WEB = "website/";
 
 window.HUB = {
 
-  /* ---- AGENCIJA (NSC) ---- */
+  /* ---- AGENCIJA (Umbrella Marketing) ---- */
   agency: {
-    name: "NSC",
-    unit: "Studio za rast",
-    org:  "NSC Agencija",
+    name: "Umbrella",
+    unit: "Marketing",
+    org:  "Umbrella Marketing",
     lang: "sr",
-    logo: "<svg viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='currentColor'/><text x='16' y='21' font-family='Georgia,serif' font-size='13' font-weight='700' text-anchor='middle' fill='#0b1f1c'>NSC</text></svg>",
+    logo: "<svg viewBox='0 0 32 32' fill='none'><path d='M16 5 C9.4 5 4.2 9.6 3.2 15.2 A0.8 0.8 0 0 0 4 16 L28 16 A0.8 0.8 0 0 0 28.8 15.2 C27.8 9.6 22.6 5 16 5 Z' fill='#4bb6ab'/><line x1='16' y1='3' x2='16' y2='5' stroke='#4bb6ab' stroke-width='2' stroke-linecap='round'/><path d='M16 16 L16 24.5 A3 3 0 0 1 10.6 24.5' stroke='#f06234' stroke-width='2.3' fill='none' stroke-linecap='round'/></svg>",
     favicon: "favicon.svg",
     tokens: {
-      accent: "#0f766e", accentStrong: "#115e59", accentSoft: "#d6efe9",
-      ink: "#0f1a18", ink2: "#17211f", inkMuted: "rgba(15,26,24,.58)",
-      sidebar: "#0b1f1c", bg: "#f6f8f7", bgAlt: "#eaefed", hairline: "rgba(15,26,24,.12)",
-      onDark: "#f2f7f5",
+      accent: "#4bb6ab", accentStrong: "#359a8f", accentSoft: "#dcf1ee",
+      ink: "#2f3436", ink2: "#333333", inkMuted: "rgba(51,51,51,.58)",
+      sidebar: "#17423d", bg: "#ffffff", bgAlt: "#f1f1f1", hairline: "rgba(51,51,51,.12)",
+      onDark: "#ffffff",
     },
-    fonts: { display: "Georgia,'Times New Roman',serif", body: "system-ui,-apple-system,Segoe UI,Roboto,sans-serif" },
+    fonts: {
+      display: "'PT Serif', serif", body: "Montserrat, system-ui, -apple-system, Segoe UI, sans-serif",
+      import: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=PT+Serif:wght@400;700&display=swap",
+    },
   },
 
   /* ---- PREDLOG ---- */
   brand: {
     proposalFor: "Kurs za mala preduzeća",
-    foot: "NSC Agencija.<br>Plan generisanja lidova za Kurs za mala preduzeća (Srbija). " +
+    foot: "Umbrella Marketing.<br>Plan generisanja lidova za Kurs za mala preduzeća (Srbija). " +
           "Prikazane površine su predlozi za pregled i prototipovi, ne živi sajt.",
   },
   favicon: "favicon.svg",
-  title: "NSC — Plan generisanja lidova za Kurs za mala preduzeća",
+  title: "Umbrella Marketing — Plan generisanja lidova za Kurs za mala preduzeća",
   defaultView: "intro",
   WEB: "website/",
 
@@ -95,10 +98,10 @@ window.HUB = {
         facebook:  { cap: "Vodite biznis, a osecate da radite naslepo? 3 greske koje najvise kostaju male firme, i sta da radite umesto toga. Ceo program je na linku.", tags: ["#malipreduzetnici", "#biznis"] },
         instagram: { cap: "3 greske koje koste male firme. Program u opisu profila.", tags: ["#preduzetnistvo", "#malibiznis"] },
       }},
-    { slug: "12-nedelja", title: "12 nedelja, od haosa do sistema", location: "Karusel",
+    { slug: "12-nedelja", title: "6 nedelja, od haosa do sistema", location: "Karusel",
       img: "assets/social/post-12-nedelja.svg", article: WEB + "program/",
       posts: {
-        facebook:  { cap: "12 nedelja. Od haosa do sistema koji radi i bez vas. Pogledajte ceo plan programa.", tags: ["#edukacija"] },
+        facebook:  { cap: "6 nedelja. Od haosa do sistema koji radi i bez vas. Pogledajte ceo plan programa.", tags: ["#edukacija"] },
         instagram: { cap: "Ceo plan programa, nedelja po nedelja. Link u opisu.", tags: ["#biznisobuka"] },
       }},
     { slug: "prva-grupa", title: "Prva grupa, 12 mesta", location: "Objava",
@@ -151,7 +154,7 @@ window.HUB = {
       stage: "Kontaktiran", date: "4. sep 2026", notes: "Visoka namera. Poslati PDF programa." },
     { id: "L-1005", name: "Ivana Ilić", email: "ivana@example.rs", phone: "+381 62 000 0005",
       projectType: "Pekara", idealStart: "Oktobarska grupa", message: "Došla sa boost objave, traži program.",
-      page: "Boost objava · 12 nedelja", pageUrl: WEB + "program/",
+      page: "Boost objava · 6 nedelja", pageUrl: WEB + "program/",
       srcShort: "Boost objava", srcKind: "social",
       utm: { source: "instagram", medium: "paid-social", campaign: "boost-12nedelja", content: "carousel", term: "-" },
       stage: "Novo", date: "5. sep 2026", notes: "" },
@@ -204,39 +207,39 @@ window.HUB = {
 
     intro: "" +
       "<style>" +
-        ".prose{max-width:1000px;padding:20px clamp(20px,3vw,40px) 56px}.prose h2,.prose h3{font-family:Georgia,serif;text-wrap:balance}.prose p,.prose li{text-wrap:pretty}.prose>p:first-child,.prose>.lede:first-child,.prose>*:first-child{margin-top:0}" +
-        ".lede{font-size:1.16rem;color:#17211f;max-width:720px}.muted{color:#5b6b68}" +
+        ".prose{max-width:1000px;padding:20px clamp(20px,3vw,40px) 56px}.prose h2,.prose h3{font-family:'PT Serif',Georgia,serif;text-wrap:balance}.prose p,.prose li{text-wrap:pretty}.prose>p:first-child,.prose>.lede:first-child,.prose>*:first-child{margin-top:0}" +
+        ".lede{font-size:1.16rem;color:#333333;max-width:720px}.muted{color:#6b7075}" +
         ".statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0}" +
-        ".stat{background:#fff;border:1px solid rgba(15,26,24,.08);border-radius:12px;padding:18px;box-shadow:0 1px 3px rgba(15,26,24,.06),0 4px 12px rgba(15,26,24,.05)}" +
-        ".stat__n{font-family:Georgia,serif;font-size:1.7rem;font-weight:700;color:#115e59}" +
-        ".stat__l{color:#5b6b68;font-size:.82rem;margin-top:4px}" +
+        ".stat{background:#fff;border:1px solid rgba(51,51,51,.08);border-radius:12px;padding:18px;box-shadow:0 1px 3px rgba(51,51,51,.06),0 4px 12px rgba(51,51,51,.05)}" +
+        ".stat__n{font-family:'PT Serif',Georgia,serif;font-size:1.7rem;font-weight:700;color:#359a8f}" +
+        ".stat__l{color:#6b7075;font-size:.82rem;margin-top:4px}" +
         ".cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}" +
-        ".cards .card{background:#fff;border:1px solid rgba(15,26,24,.08);border-radius:12px;padding:20px;box-shadow:0 1px 3px rgba(15,26,24,.06),0 4px 12px rgba(15,26,24,.05)}" +
-        ".cards .card h3{margin:0 0 8px;font-size:1.05rem}.card--accent{background:#d6efe9;border-color:#0f766e}" +
-        ".block{display:flex;align-items:baseline;gap:12px;margin:30px 0 10px;font-size:1.4rem;font-family:Georgia,serif}" +
-        ".block__n{color:#0f766e;font-weight:700}" +
+        ".cards .card{background:#fff;border:1px solid rgba(51,51,51,.08);border-radius:12px;padding:20px;box-shadow:0 1px 3px rgba(51,51,51,.06),0 4px 12px rgba(51,51,51,.05)}" +
+        ".cards .card h3{margin:0 0 8px;font-size:1.05rem}.card--accent{background:#dcf1ee;border-color:#4bb6ab}" +
+        ".block{display:flex;align-items:baseline;gap:12px;margin:30px 0 10px;font-size:1.4rem;font-family:'PT Serif',Georgia,serif}" +
+        ".block__n{color:#f06234;font-weight:700}" +
         ".ledger{padding-left:18px}.ledger li{margin-bottom:6px}" +
         ".tblwrap{overflow-x:auto;margin:14px 0}" +
         ".tbl{border-collapse:collapse;width:100%;font-size:.92rem;background:#fff}" +
-        ".tbl th,.tbl td{border:1px solid rgba(15,26,24,.12);padding:8px 12px;text-align:left}" +
-        ".tbl th{background:#eaefed}.tbl tr.hi{background:#d6efe9;font-weight:600}" +
-        ".admock{max-width:430px;border:1px solid rgba(15,26,24,.16);border-radius:14px;overflow:hidden;background:#fff;margin:14px 0;box-shadow:0 8px 24px rgba(15,26,24,.08)}" +
+        ".tbl th,.tbl td{border:1px solid rgba(51,51,51,.12);padding:8px 12px;text-align:left}" +
+        ".tbl th{background:#f1f1f1}.tbl tr.hi{background:#dcf1ee;font-weight:600}" +
+        ".admock{max-width:430px;border:1px solid rgba(51,51,51,.16);border-radius:14px;overflow:hidden;background:#fff;margin:14px 0;box-shadow:0 8px 24px rgba(51,51,51,.08)}" +
         ".admock__head{display:flex;gap:10px;align-items:center;padding:12px 14px}" +
-        ".admock__av{width:40px;height:40px;border-radius:50%;background:#0f766e;flex:none}" +
+        ".admock__av{width:40px;height:40px;border-radius:50%;background:#4bb6ab;flex:none}" +
         ".admock__body{padding:0 14px 12px}" +
-        ".admock__img{background:#eaefed;height:170px;display:flex;align-items:center;justify-content:center;color:#5b6b68}" +
+        ".admock__img{background:#f1f1f1;height:170px;display:flex;align-items:center;justify-content:center;color:#6b7075}" +
         ".admock__form{padding:14px;display:grid;gap:8px;background:#f6f8f7}" +
-        ".fld{background:#fff;border:1px solid rgba(15,26,24,.16);border-radius:8px;padding:10px 12px;color:#5b6b68;font-size:.9rem}" +
+        ".fld{background:#fff;border:1px solid rgba(51,51,51,.16);border-radius:8px;padding:10px 12px;color:#6b7075;font-size:.9rem}" +
         ".fld--q{color:#0f1a18}" +
-        ".admock__cta{background:#0f766e;color:#fff;border:none;border-radius:8px;padding:11px;font-weight:600;font-size:.95rem;cursor:pointer;transition:.15s}" +
+        ".admock__cta{background:#4bb6ab;color:#fff;border:none;border-radius:8px;padding:11px;font-weight:600;font-size:.95rem;cursor:pointer;transition:.15s}" +
         ".admock__cta:hover{background:#111;color:#fff}" +
-        ".admock__note{padding:10px 14px;font-size:.8rem;color:#5b6b68;border-top:1px solid rgba(15,26,24,.12)}" +
-        ".sitepane__lede{font-weight:600}.sp-point{margin:12px 0;padding-left:12px;border-left:3px solid #0f766e}" +
+        ".admock__note{padding:10px 14px;font-size:.8rem;color:#6b7075;border-top:1px solid rgba(51,51,51,.12)}" +
+        ".sitepane__lede{font-weight:600}.sp-point{margin:12px 0;padding-left:12px;border-left:3px solid #4bb6ab}" +
         "@media(max-width:820px){.statgrid,.cards{grid-template-columns:1fr 1fr}}" +
         "@media(max-width:560px){.statgrid,.cards{grid-template-columns:1fr}}" +
       "</style>" +
       "<div class='prose'>" +
-      "<p class='lede'>Tromesečni program koji uči mala preduzeća u Srbiji kako da postave temelje za uspeh. Cena 1.500 EUR. Upis počinje u oktobru. Ovaj plan dovodi prvu grupu od 12 polaznika koji plaćaju, kroz plaćeno generisanje lidova, organsku kampanju i mali sajt, sve u jedan namenski CRM.</p>" +
+      "<p class='lede'>Šestonedeljni intenzivni program koji uči mala preduzeća u Srbiji kako da postave temelje za uspeh. Cena 1.500 EUR. Upis počinje u oktobru. Ovaj plan dovodi prvu grupu od 12 polaznika koji plaćaju, kroz plaćeno generisanje lidova, organsku kampanju i mali sajt, sve u jedan namenski CRM.</p>" +
       "<div class='statgrid'>" +
         "<div class='stat'><div class='stat__n'>12</div><div class='stat__l'>prodaja, prva grupa</div></div>" +
         "<div class='stat'><div class='stat__n'>4 do 6 &euro;</div><div class='stat__l'>cena po lidu</div></div>" +
@@ -306,7 +309,7 @@ window.HUB = {
       "<h3>Pravac 1 &middot; Meta native lead forma (program magnet)</h3>" +
       "<div class='admock'>" +
         "<div class='admock__head'><span class='admock__av'></span><div><b>Kurs za mala preduzeća</b><br><span class='muted'>Sponzorisano</span></div></div>" +
-        "<div class='admock__body'>Preuzmite ceo plan programa. 12 nedelja, korak po korak, kako da vas biznis radi i bez vas. Ostavite ime i email, plan stize odmah.</div>" +
+        "<div class='admock__body'>Preuzmite ceo plan programa. 6 nedelja, korak po korak, kako da vas biznis radi i bez vas. Ostavite ime i email, plan stize odmah.</div>" +
         "<div class='admock__img'>[ kreativa programa ]</div>" +
         "<div class='admock__form'>" +
           "<div class='fld'>Ime i prezime</div><div class='fld'>Email</div><div class='fld'>Telefon (opciono)</div>" +

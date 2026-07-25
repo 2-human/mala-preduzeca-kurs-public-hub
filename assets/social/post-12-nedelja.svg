@@ -5,10 +5,10 @@
   <g font-family="system-ui,Segoe UI,sans-serif">
     <rect x="90" y="86" width="46" height="46" rx="11" fill="#0f766e"/>
     <text x="113" y="117" text-anchor="middle" font-size="20" font-weight="700" fill="#eafaf6">SB</text>
-    <text x="152" y="116" font-size="21" letter-spacing="2.5" fill="#5b6b68">12 NEDELJA · PLAN PROGRAMA</text>
+    <text x="152" y="116" font-size="21" letter-spacing="2.5" fill="#5b6b68">6 NEDELJA · PLAN PROGRAMA</text>
   </g>
   <!-- headline -->
-  <text x="90" y="300" font-size="120" font-weight="700" fill="#115e59">12 nedelja</text>
+  <text x="90" y="300" font-size="120" font-weight="700" fill="#115e59">6 nedelja</text>
   <text x="90" y="392" font-size="58" fill="#17211f">
     <tspan x="90">od haosa do sistema</tspan>
     <tspan x="90" dy="72">koji radi i bez vas</tspan>
