@@ -242,9 +242,9 @@ window.HUB = {
       "<p class='lede'>Šestonedeljni intenzivni program koji uči mala preduzeća u Srbiji kako da postave temelje za uspeh. Cena 1.500 EUR. Upis počinje u oktobru. Ovaj plan dovodi prvu grupu od 12 polaznika koji plaćaju, kroz plaćeno generisanje lidova, organsku kampanju i mali sajt, sve u jedan namenski CRM.</p>" +
       "<div class='statgrid'>" +
         "<div class='stat'><div class='stat__n'>12</div><div class='stat__l'>prodaja, prva grupa</div></div>" +
-        "<div class='stat'><div class='stat__n'>4 do 6 &euro;</div><div class='stat__l'>cena po lidu</div></div>" +
-        "<div class='stat'><div class='stat__n'>150 do 300 &euro;</div><div class='stat__l'>cena po upisu</div></div>" +
-        "<div class='stat'><div class='stat__n'>5 do 9x</div><div class='stat__l'>povraćaj na medije</div></div>" +
+        "<div class='stat'><div class='stat__n'>4,5 do 7 &euro;</div><div class='stat__l'>cena po lidu</div></div>" +
+        "<div class='stat'><div class='stat__n'>90 do 350 &euro;</div><div class='stat__l'>cena po upisu</div></div>" +
+        "<div class='stat'><div class='stat__n'>4 do 17x</div><div class='stat__l'>povraćaj na medije (ROAS)</div></div>" +
       "</div>" +
       "<p>Ekonomija je popustljiva: po ceni od 1.500 EUR po mestu, čak i konzervativni scenario vraća pet puta više od uloženog u medije. Pravi posao je izvođenje toka i zatvaranje neproverene prve grupe, zato plan spaja jeftin volumen lidova sa Meta platforme sa brzim praćenjem od strane prodaje, WhatsApp-om, fokusiranom Google linijom i organskom kampanjom koja gradi poverenje.</p>" +
       "<p class='muted'>Brojevi ispod su zasnovani na uživo povučenim podacima o obimu Google pretraga u Srbiji i veličini Meta publike, plus benčmarci za B2B edukaciju. Zamenite procene stvarnim podacima iz platformi posle prve nedelje.</p>" +
@@ -285,20 +285,20 @@ window.HUB = {
       "<div class='tblwrap'><table class='tbl'>" +
         "<thead><tr><th>Scenario</th><th>Prosečan CPL</th><th>Lid u prodaju</th><th>Lidova za 12</th><th>Budžet medija</th><th>CPA</th></tr></thead>" +
         "<tbody>" +
-        "<tr><td>Konzervativan</td><td>6 &euro;</td><td>2,0%</td><td>~600</td><td>~3.600 &euro;</td><td>~300 &euro;</td></tr>" +
-        "<tr class='hi'><td>Osnovni (plan)</td><td>5 &euro;</td><td>3,0%</td><td>~400</td><td>~2.000 &euro;</td><td>~167 &euro;</td></tr>" +
-        "<tr><td>Optimističan</td><td>4 &euro;</td><td>5,0%</td><td>~240</td><td>~960 &euro;</td><td>~80 &euro;</td></tr>" +
+        "<tr><td>Konzervativan</td><td>7 &euro;</td><td>2,0%</td><td>~600</td><td>~4.200 &euro;</td><td>~350 &euro;</td></tr>" +
+        "<tr class='hi'><td>Osnovni (plan)</td><td>5,5 &euro;</td><td>3,0%</td><td>~400</td><td>~2.200 &euro;</td><td>~183 &euro;</td></tr>" +
+        "<tr><td>Optimističan</td><td>4,5 &euro;</td><td>5,0%</td><td>~240</td><td>~1.080 &euro;</td><td>~90 &euro;</td></tr>" +
         "</tbody>" +
       "</table></div>" +
-      "<p>Planirajte oko osnovnog scenarija, ali budžetirajte za konzervativni: radni okvir medija od oko 3.500 do 4.000 EUR, otprilike 55% Meta akvizicija, 17% Meta retargeting, 10% Google pretraga, i ostatak na Demand Gen i WhatsApp. Prihod pri 12 prodaja je 18.000 EUR, pa čak i konzervativni scenario vraća pet puta više od uloženog u medije.</p>" +
+      "<p>Kampanja traje 6 nedelja. Planirajte oko osnovnog scenarija, ali budžetirajte za konzervativni: ad spend od oko 2.200 do 4.200 EUR, otprilike 55% Meta akvizicija, 17% Meta retargeting, 10% Google pretraga, i ostatak na Demand Gen i WhatsApp. Pun objedinjen budžet (honorar + ad spend) i ROAS/ROI su u pogledu Ponuda i ROI.</p>" +
 
       "<h3>Vremenski plan</h3>" +
       "<div class='tblwrap'><table class='tbl'>" +
         "<thead><tr><th>Kada</th><th>Fokus</th></tr></thead><tbody>" +
-        "<tr><td>Avgust</td><td>Izrada sajta, praćenja i CRM-a. Priprema kreativa. Početak organskog zagrevanja.</td></tr>" +
-        "<tr><td>Početak septembra</td><td>Pokretanje test budžeta kroz dva Meta ad seta, WhatsApp i Google. Merenje cene i kvaliteta lidova.</td></tr>" +
-        "<tr><td>Kraj septembra</td><td>Skaliranje pobednika, početak retargetinga, podsticanje preuzimanja programa i prijava.</td></tr>" +
-        "<tr><td>Oktobar</td><td>Upis se otvara. Konverzioni potisak sa rokom i ograničenjem mesta, snažan retargeting, prodaja zatvara tok.</td></tr>" +
+        "<tr><td>Priprema (pre starta)</td><td>Izrada sajta, praćenja i CRM-a, kreative i postavka sistema. Početak organskog zagrevanja.</td></tr>" +
+        "<tr><td>Nedelje 1–2</td><td>Pokretanje: test budžet kroz Meta ad setove, WhatsApp i Google. Merenje cene i kvaliteta lidova.</td></tr>" +
+        "<tr><td>Nedelje 3–4</td><td>Skaliranje pobednika, retargeting, podsticanje preuzimanja programa i prijava.</td></tr>" +
+        "<tr><td>Nedelje 5–6</td><td>Konverzioni potisak sa rokom i ograničenjem mesta, snažan retargeting; prodaja zatvara tok i popunjava 12 mesta.</td></tr>" +
       "</tbody></table></div>" +
       "</div>",
 
@@ -339,46 +339,45 @@ window.HUB = {
 
     offer: "" +
       "<div class='prose'>" +
-      "<p class='lede'>Predlog saradnje za prvu grupu: fiksni honorar plus preporučeni budžet za oglase, sa procenom povraćaja na bazi benčmarka. Tri scenarija: pesimistična, bazna i optimistična.</p>" +
+      "<p class='lede'>Predlog saradnje za prvu grupu: honorar (2 meseca) plus rekalkulisan budžet za oglase za 6-nedeljnu kampanju. Ispod je objedinjen budžet (honorar + ad spend + ukupno) i procena povraćaja u tri scenarija.</p>" +
 
       "<div class='statgrid'>" +
+        "<div class='stat'><div class='stat__n'>6 nedelja</div><div class='stat__l'>trajanje kampanje</div></div>" +
         "<div class='stat'><div class='stat__n'>3 do 5</div><div class='stat__l'>upisa = pokriven trošak (break-even)</div></div>" +
-        "<div class='stat'><div class='stat__n'>5 do 19x</div><div class='stat__l'>ROAS (prihod / oglasi)</div></div>" +
-        "<div class='stat'><div class='stat__n'>171 do 349%</div><div class='stat__l'>ROI na ukupno ulaganje</div></div>" +
-        "<div class='stat'><div class='stat__n'>18.000 &euro;</div><div class='stat__l'>prihod prve grupe (12 × 1.500)</div></div>" +
+        "<div class='stat'><div class='stat__n'>4 do 17x</div><div class='stat__l'>ROAS (prihod / oglasi)</div></div>" +
+        "<div class='stat'><div class='stat__n'>181 do 449%</div><div class='stat__l'>ROI na ukupan budžet</div></div>" +
       "</div>" +
 
-      "<h2 class='block'><span class='block__n'>01</span> Honorar agencije</h2>" +
+      "<h2 class='block'><span class='block__n'>01</span> Honorar agencije (2 meseca)</h2>" +
       "<div class='tblwrap'><table class='tbl'>" +
-        "<thead><tr><th>Stavka</th><th>Model</th><th>Iznos (3 meseca)</th></tr></thead><tbody>" +
+        "<thead><tr><th>Stavka</th><th>Model</th><th>Iznos (2 meseca)</th></tr></thead><tbody>" +
         "<tr><td>Postavka svih sistema (platforme, landing, mini CRM)</td><td>jednokratno</td><td>500 &euro;</td></tr>" +
-        "<tr><td>Organski sadržaj (12 objava mesečno)</td><td>450 &euro; / mes</td><td>1.350 &euro;</td></tr>" +
-        "<tr><td>Vođenje kampanja (Meta, Google, WhatsApp)</td><td>400 &euro; / mes</td><td>1.200 &euro;</td></tr>" +
-        "<tr class='hi'><td>Ukupno honorar</td><td>3-mesečni angažman</td><td>3.050 &euro;</td></tr>" +
+        "<tr><td>Organski sadržaj (12 objava mesečno)</td><td>450 &euro; / mes × 2</td><td>900 &euro;</td></tr>" +
+        "<tr><td>Vođenje kampanja (Meta, Google, WhatsApp)</td><td>400 &euro; / mes × 2</td><td>800 &euro;</td></tr>" +
+        "<tr class='hi'><td>Ukupno honorar</td><td>2-mesečni angažman</td><td>2.200 &euro;</td></tr>" +
       "</tbody></table></div>" +
-      "<p class='muted'>Ad spend i boost budžet se plaćaju direktno platformama (Meta, Google) i nisu deo honorara. Preporučeni raspon: 960 do 3.600 &euro; (vidi scenarije ispod).</p>" +
+      "<p class='muted'>Honorar pokriva pripremu, vođenje 6-nedeljne kampanje i zatvaranje. Ad spend i boost se plaćaju direktno platformama (Meta, Google) i prikazani su u objedinjenom budžetu ispod.</p>" +
 
-      "<h2 class='block'><span class='block__n'>02</span> Povraćaj: 3 scenarija</h2>" +
-      "<p>Cilj je 12 upisa (kapacitet prve grupe), pa je prihod fiksan na 18.000 &euro;. Scenariji pokazuju koliko medijskog budžeta treba da se cilj dostigne pri slaboj, očekivanoj ili odličnoj efikasnosti levka, i koliki je povraćaj u svakom slučaju.</p>" +
+      "<h2 class='block'><span class='block__n'>02</span> Objedinjeni budžet i povraćaj</h2>" +
+      "<p>Kampanja traje 6 nedelja, cilj je 12 upisa (kapacitet grupe), pa je prihod fiksan na 18.000 &euro;. Isti broj lidova mora da se kupi u kraćem roku, pa je CPL blago viši (brže trošenje u malom tržištu) — ad spend je u skladu s tim rekalkulisan. Scenariji se razlikuju po efikasnosti levka.</p>" +
       "<div class='tblwrap'><table class='tbl'>" +
         "<thead><tr><th>Metrika</th><th>Pesimistična</th><th>Bazna</th><th>Optimistična</th></tr></thead><tbody>" +
-        "<tr><td>CPL (prosečna cena po lidu)</td><td>6 &euro;</td><td>5 &euro;</td><td>4 &euro;</td></tr>" +
+        "<tr><td>CPL (6-nedeljni tempo)</td><td>7 &euro;</td><td>5,5 &euro;</td><td>4,5 &euro;</td></tr>" +
         "<tr><td>Lid → prodaja</td><td>2,0%</td><td>3,0%</td><td>5,0%</td></tr>" +
         "<tr><td>Lidova za 12 upisa</td><td>600</td><td>400</td><td>240</td></tr>" +
-        "<tr><td>Ad + boost budžet</td><td>3.600 &euro;</td><td>2.000 &euro;</td><td>960 &euro;</td></tr>" +
-        "<tr><td>Cena po upisu (CPA)</td><td>300 &euro;</td><td>167 &euro;</td><td>80 &euro;</td></tr>" +
+        "<tr><td>Honorar (2 meseca)</td><td>2.200 &euro;</td><td>2.200 &euro;</td><td>2.200 &euro;</td></tr>" +
+        "<tr><td>Ad + boost budžet</td><td>4.200 &euro;</td><td>2.200 &euro;</td><td>1.080 &euro;</td></tr>" +
+        "<tr class='hi'><td>UKUPNO budžet</td><td>6.400 &euro;</td><td>4.400 &euro;</td><td>3.280 &euro;</td></tr>" +
         "<tr><td>Prihod (12 × 1.500)</td><td>18.000 &euro;</td><td>18.000 &euro;</td><td>18.000 &euro;</td></tr>" +
-        "<tr><td>Honorar (3 meseca)</td><td>3.050 &euro;</td><td>3.050 &euro;</td><td>3.050 &euro;</td></tr>" +
-        "<tr><td>Ukupno ulaganje (honorar + mediji)</td><td>6.650 &euro;</td><td>5.050 &euro;</td><td>4.010 &euro;</td></tr>" +
-        "<tr><td>Neto profit</td><td>11.350 &euro;</td><td>12.950 &euro;</td><td>13.990 &euro;</td></tr>" +
-        "<tr class='hi'><td>ROAS (prihod / oglasi)</td><td>5,0x</td><td>9,0x</td><td>18,8x</td></tr>" +
-        "<tr class='hi'><td>ROI (neto / ukupno ulaganje)</td><td>171%</td><td>256%</td><td>349%</td></tr>" +
+        "<tr><td>Neto profit</td><td>11.600 &euro;</td><td>13.600 &euro;</td><td>14.720 &euro;</td></tr>" +
+        "<tr class='hi'><td>ROAS (prihod / oglasi)</td><td>4,3x</td><td>8,2x</td><td>16,7x</td></tr>" +
+        "<tr class='hi'><td>ROI (neto / ukupan budžet)</td><td>181%</td><td>309%</td><td>449%</td></tr>" +
       "</tbody></table></div>" +
-      "<p class='muted'>ROAS = prihod / medijski trošak (oglasi + boost), industrijska definicija. ROI = neto profit / ukupno ulaganje (honorar + mediji). Osnova: uživo povučeni srpski CPC i veličina Meta publike, plus industrijski benčmarci za B2B edukaciju. Break-even je na 3 do 5 upisa, a cilj je 12.</p>" +
+      "<p class='muted'>ROAS = prihod / ad spend (oglasi + boost). ROI = neto profit / ukupan budžet (honorar + ad spend). Osnova: uživo povučeni srpski CPC i veličina Meta publike, plus industrijski benčmarci za B2B edukaciju. Break-even je na 3 do 5 upisa, a cilj je 12.</p>" +
 
       "<h2 class='block'><span class='block__n'>03</span> Šta ostaje posle prve grupe</h2>" +
       "<p>Sistemi (sajt, mini CRM, kampanje) i organska publika ostaju vaši. Svaka naredna grupa startuje bez ponovne postavke, sa toplom publikom za retargeting i društvenim dokazom prve grupe, pa cena po upisu pada, a ROI raste iz grupe u grupu. Honorar za naredne grupe je samo mesečni deo (organski + vođenje), bez 500 &euro; postavke.</p>" +
-      "<p class='muted'>Zaštita od rizika: i ako se popuni samo 8 od 12 mesta uz najskuplji levak, prihod od 12.000 &euro; i dalje pokriva ceo trošak (ROAS 3,3x, ROI oko 80%). Break-even je na svega 3 do 5 upisa.</p>" +
+      "<p class='muted'>Zaštita od rizika: i ako se popuni samo 8 od 12 mesta uz najskuplji levak, prihod od 12.000 &euro; i dalje pokriva ceo trošak (ROAS ~2,9x, ROI ~88%). Break-even je na svega 3 do 5 upisa.</p>" +
       "</div>",
 
     website: "<iframe title='Prototip sajta' src='website/' style='width:100%;height:72vh;border:1px solid var(--hairline);border-radius:12px;background:#fff'></iframe>",
