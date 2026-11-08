@@ -6,8 +6,9 @@
  * localStorage store that the CRM dashboard (../../../crm/app/dashboard.html) reads.
  *
  * >>> TO GO LIVE, replace the body of `persist()` with a real backend. <<<
- * Proven pattern in this org: Firebase RTDB write-only push (see
- * projects/dramafree/public/events/registration.config.js), or a Google
+ * Proven pattern in this org: Firebase RTDB write-only push (see the library
+ * contact-form firebase-rtdb-write-adapter.md; dramafree, retired 2026-11-08:
+ * https://github.com/2-human/library/blob/main/blueprint/.claude/archived-projects/dramafree.md), or a Google
  * Apps Script endpoint. Keep the same lead shape so the CRM keeps working.
  * A mailto: fallback is included for when the backend is unreachable.
  * ========================================================================== */
